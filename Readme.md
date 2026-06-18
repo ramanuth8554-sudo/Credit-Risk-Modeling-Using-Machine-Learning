@@ -5,7 +5,7 @@ An End-to-End Machine Learning project that predicts the credit risk of bank cus
 ---
 
 ## 🌟 Features
-- **Data Cleansing & Imputation:** Addressed missing data by filling values (`'Unknown'`) to preserve the 1000-row dataset distribution.
+- **Data Cleaning & Preprocessing:** - *Handling Missing Values (Row Dropping):* Rows containing missing or unrecorded inputs (`NaN`) within critical financial metrics—specifically `Saving accounts` and `Checking account`—were dropped directly from the baseline data matrix to eliminate noise and prevent prediction bias.
 - **Exploratory Data Analysis (EDA):** Insightful data visualization with Seaborn/Matplotlib analyzing correlations, distributions, and customer behaviors.
 - **Advanced Machine Learning:** Hyperparameter tuning via `GridSearchCV` across multiple models (Decision Tree, Random Forest, Extra Trees, and XGBoost).
 - **Interactive Web UI:** Built with Streamlit, allowing users to input financial indicators and get real-time credit risk assessments.
