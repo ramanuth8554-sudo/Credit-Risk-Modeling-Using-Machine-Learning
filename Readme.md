@@ -1,4 +1,4 @@
-# 📊 German Credit Risk Prediction App 🚀
+# 📊Credit Risk Prediction App 
 
 An End-to-End Machine Learning project that predicts the credit risk of bank customers (Good vs. Bad Credit Risk) based on their demographic and financial profile. The project includes interactive data analysis, machine learning modeling using XGBoost, and a web deployment using Streamlit.
 
